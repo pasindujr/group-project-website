@@ -1,0 +1,38 @@
+#home-jumbotron-1 {
+	background-color: #b24242;
+}
+
+#mainNav {
+	background-color: #e8cece;
+}
+
+#home-announcement {
+	background-color: #e4dfdf;
+	padding: 1em;
+	color: #fc0a0a;
+	border-style: solid;
+	border-color: black;
+}
+
+#home-p {
+	padding-top: 2em;
+	line-height: 1.8em;
+}
+
+#footer {
+	width: auto;
+	max-width: full;
+	padding: 10;
+}
+
+.footer {
+	background-color: rgb(53, 54, 53);
+	color: white;
+}
+
+#ann-heading {
+	background-color: #c4c4c4;
+	padding: 3px;
+	border: 1px solid black;
+	text-align: center;
+}
