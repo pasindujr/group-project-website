@@ -19,15 +19,10 @@
 	line-height: 1.8em;
 }
 
-#footer {
+footer {
 	width: auto;
 	max-width: full;
-	padding: 10;
-}
-
-.footer {
-	background-color: rgb(53, 54, 53);
-	color: white;
+	padding: 0em;
 }
 
 #ann-heading {
@@ -35,6 +30,14 @@
 	padding: 3px;
 	border: 1px solid black;
 	text-align: center;
+}
+
+body {
+	background-color: #e6e6e6;
+}
+
+.footer {
+	background-color: rgb(53, 54, 53);
 }
 
 
