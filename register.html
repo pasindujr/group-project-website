@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ATI Kegalle - Your Profile</title>
+    <title>ATI Kegalle - Register</title>
     <!-- Font Awesome -->
     <link
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
@@ -81,82 +81,99 @@
     <!-- Navbar -->
     <br>
     <!-- Content-->
-    <div class="container mb-5">
+
+    <div class="container">
         <div class="row">
             <div class="col-12">
                 <h2 class="text-center">Your Profile</h2>
             </div>
         </div>
         <br>
-        <div class="row">
-            <div class="col-12">
-                <table class="table">
-                    <tbody>
-                      <tr>
-                        <th scope="row">1</th>
-                        <td>Name</td>
-                        <td><input type="text" id="typeText" class="form-control" /></td>
-                      
-                      </tr>
-                      <tr>
-                        <th scope="row">2</th>
-                        <td>User Name</td>
-                        <td><input type="text" id="typeText" class="form-control" /></td>
-                       
-                      </tr>
-                      <tr>
-                        <th scope="row">3</th>
-                        <td>Department</td>
-                        <td><input type="text" id="typeText" class="form-control" /></td>
-                      </tr>
-                      <tr>
-                        <th scope="row">4</th>
-                        <td>Designation</td>
-                        <td><input type="text" id="typeText" class="form-control" /></td>
-                      </tr>
-                      <tr>
-                        <th scope="row">5</th>
-                        <td>NIC</td>
-                        <td><input type="text" id="typeText" class="form-control" /></td>
-                      </tr>
-                      <tr>
-                        <th scope="row">6</th>
-                        <td>Birthday</td>
-                        <td><input type="text" id="typeText" class="form-control" /></td>
-                      </tr>
-                      <tr>
-                        <th scope="row">7</th>
-                        <td>Age</td>
-                        <td><input type="number" id="typeNumber" class="form-control" /></td>
-                      </tr>
-                      <tr>
-                        <th scope="row">8</th>
-                        <td>Address</td>
-                        <td><input type="text" id="typeText" class="form-control" /></td>
-                      </tr>
-                      <tr>
-                        <th scope="row">9</th>
-                        <td>Gender</td>
-                        <td><select>
-                          <option value="" disabled selected>Choose your option</option>
-                          <option value="1">Male</option>
-                          <option value="2">Female</option>
-                        </select></td>
-                      </tr>
-                      <tr>
-                        <th scope="row">10</th>
-                        <td>Mobile</td>
-                        <td><input type="number" id="typeNumber" class="form-control" /></td>
-                      </tr>
-                      <tr>
-                        <th scope="row">11</th>
-                        <td>Email</td>
-                        <td><input type="email" id="typeEmail" class="form-control" /></td>
-                      </tr>
-                    </tbody>
-                  </table>
+    <form>
+        <!-- 2 column grid layout with text inputs for the first and last names -->
+        <div class="row mb-4">
+          <div class="col">
+            <div class="form-outline">
+              <input type="text" id="form6Example1" class="form-control" />
+              <label class="form-label" for="form6Example1">First name</label>
             </div>
+          </div>
+          <div class="col">
+            <div class="form-outline">
+              <input type="text" id="form6Example2" class="form-control" />
+              <label class="form-label" for="form6Example2">Last name</label>
+            </div>
+          </div>
         </div>
+      
+        <!-- Text input -->
+        <div class="form-outline mb-4">
+          <input type="text" id="form6Example3" class="form-control" />
+          <label class="form-label" for="form6Example3">User Name</label>
+        </div>
+      
+        <!-- Text input -->
+        <div class="form-outline mb-4">
+          <input type="text" id="form6Example4" class="form-control" />
+          <label class="form-label" for="form6Example4">Department</label>
+        </div>
+      
+        <!-- Designation input -->
+        <div class="form-outline mb-4">
+          <input type="text" id="form6Example5" class="form-control" />
+          <label class="form-label" for="form6Example5">Designation</label>
+        </div>
+      
+        <!-- NIC input -->
+        <div class="form-outline mb-4">
+          <input type="number" id="form6Example6" class="form-control" />
+          <label class="form-label" for="form6Example6">NIC</label>
+        </div>
+
+        <!-- Birthday input -->
+        <div class="form-outline mb-4">
+            <input type="text" id="form6Example5" class="form-control" />
+            <label class="form-label" for="form6Example5">Birthday</label>
+          </div>
+
+        <!-- Age input -->
+        <div class="form-outline mb-4">
+            <input type="number" id="form6Example6" class="form-control" />
+            <label class="form-label" for="form6Example6">Age</label>
+          </div>
+
+          <!-- Address input -->
+        <div class="form-outline mb-4">
+            <input type="text" id="form6Example5" class="form-control" />
+            <label class="form-label" for="form6Example5">Address</label>
+          </div>
+
+          <!-- Mobile input -->
+        <div class="form-outline mb-4">
+            <input type="number" id="form6Example6" class="form-control" />
+            <label class="form-label" for="form6Example6">Mobile</label>
+          </div>
+
+        <!-- Email input -->
+        <div class="form-outline mb-4">
+            <input type="email" id="form6Example5" class="form-control" />
+            <label class="form-label" for="form6Example5">Email</label>
+        </div>
+
+        <!-- Gender select-->
+        <div class="form-outline mb-4">
+            <label class="form-label" for="form6Example5">Gender</label>
+          <select>
+            <option value="" disabled selected>Choose your option</option>
+            <option value="1">Male</option>
+            <option value="2">Female</option>
+          </select>
+        </div>
+
+        <!-- Submit button -->
+        <button type="submit" class="btn btn-primary btn-block mb-4">Create Account</button>
+      </form>
+      
     </div>
 
     <!-- Footer -->
