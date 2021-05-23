@@ -170,7 +170,7 @@
   
   .main-bg {
     background: #424242;
-    background: linear-gradient(#424242, #212121);
+    background: linear-gradient(#023e8a, #ade8f4);
   }
   
   /* Login & Register Pages*/
@@ -179,7 +179,7 @@
     max-width: 400px;
     z-index: 100;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 30px;
   }
   .login.login-container {
     width: 300px;
