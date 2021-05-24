@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>ATI Kegalle - Gallery</title>
+		<title>ATI Kegalle - Member Submit</title>
 		<!-- Font Awesome -->
 		<link
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
@@ -30,8 +30,8 @@
 			<!-- Container wrapper -->
 			<div class="container-fluid">
 				<!-- Navbar brand -->
-				<a class="navbar-brand" href="index.html"
-					><img src="assets/logo.png" width="30" height="30" alt=""
+				<a class="navbar-brand" href="/./index.html"
+					><img src="/./assets/logo.png" width="30" height="30" alt=""
 				/></a>
 
 				<!-- Toggle button -->
@@ -52,13 +52,13 @@
 					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 						<!-- Link -->
 						<li class="nav-item">
-							<a class="nav-link" href="announcement.html">Announcements</a>
+							<a class="nav-link" href="/./announcement.html">Announcements</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="gallery.html">Gallery</a>
+							<a class="nav-link" href="/./gallery.html">Gallery</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="contact.html">Contact Us</a>
+							<a class="nav-link" href="/./contact.html">Contact Us</a>
 						</li>
 
 						<!-- Dropdown -->
@@ -76,13 +76,15 @@
 							<!-- Dropdown menu -->
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
-									<a class="dropdown-item" href="profile.html">Your Profile</a>
+									<a class="dropdown-item" href="/./profile.html"
+										>Your Profile</a
+									>
 								</li>
 								<li>
-									<a class="dropdown-item" href="register.html">Register</a>
+									<a class="dropdown-item" href="/./register.html">Register</a>
 								</li>
 								<li>
-									<a class="dropdown-item" href="login.html">Login</a>
+									<a class="dropdown-item" href="/./login.html">Login</a>
 								</li>
 							</ul>
 						</li>
@@ -92,99 +94,50 @@
 			<!-- Container wrapper -->
 		</nav>
 		<!-- Navbar -->
-		<br />
 
-		<!-- Gallery -->
+		<!--Content-->
 		<div class="container">
-			<div class="row">
-				<div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-					<img
-						src="assets/g1.jpg"
-						class="w-100 shadow-1-strong rounded mb-4"
-						alt=""
-					/>
-
-					<img
-						src="assets/g2.jpg"
-						class="w-100 shadow-1-strong rounded mb-4"
-						alt=""
-					/>
+			<div class="login-container text-center">
+				<div>
+					<h1 class="logo-badge"><span class="fas fa-address-book"></span></h1>
 				</div>
+				<h3 class="text-whitesmoke mb-4">Member Submit</h3>
+				<form>
+					<div class="col d-flex justify-content-center">
+						<!-- Email input -->
+						<div class="form-outline mb-4">
+							<input type="text" id="form1Example1" class="form-control" />
+							<label class="form-label" for="form1Example1">Username</label>
+						</div>
+					</div>
 
-				<div class="col-lg-4 mb-4 mb-lg-0">
-					<img
-						src="assets/g3.jpg"
-						class="w-100 shadow-1-strong rounded mb-4"
-						alt=""
-					/>
+					<div class="col d-flex justify-content-center">
+						<!-- Password input -->
+						<div class="form-outline mb-4">
+							<input type="password" id="form1Example2" class="form-control" />
+							<label class="form-label" for="form1Example2">Password</label>
+						</div>
+					</div>
 
-					<img
-						src="assets/g4.jpg"
-						class="w-100 shadow-1-strong rounded mb-4"
-						alt=""
-					/>
-				</div>
+					<!-- 2 column grid layout for inline styling -->
+					<div class="row mb-4">
+						<div class="col d-flex justify-content-center">
+							<div class="col">
+								<!-- Simple link -->
+								<a href="visitor-submit.html"
+									>Not a member of ATI Kegalle?<br />Click here.</a
+								>
+							</div>
+						</div>
+					</div>
 
-				<div class="col-lg-4 mb-4 mb-lg-0">
-					<img
-						src="assets/g5.jpg"
-						class="w-100 shadow-1-strong rounded mb-4"
-						alt=""
-					/>
-
-					<img
-						src="assets/g6.jpg"
-						class="w-100 shadow-1-strong rounded mb-4"
-						alt=""
-					/>
-				</div>
-			</div>
-			<div class="row mb-2">
-				<div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-					<img
-						src="assets/g7.jpg"
-						class="w-100 shadow-1-strong rounded mb-4"
-						alt=""
-					/>
-
-					<img
-						src="assets/g8.jpg"
-						class="w-100 shadow-1-strong rounded mb-4"
-						alt=""
-					/>
-				</div>
-
-				<div class="col-lg-4 mb-4 mb-lg-0">
-					<img
-						src="assets/g9.jpg"
-						class="w-100 shadow-1-strong rounded mb-4"
-						alt=""
-					/>
-
-					<img
-						src="assets/g10.jpg"
-						class="w-100 shadow-1-strong rounded mb-4"
-						alt=""
-					/>
-				</div>
-
-				<div class="col-lg-4 mb-4 mb-lg-0">
-					<img
-						src="assets/g11.jpg"
-						class="w-100 shadow-1-strong rounded mb-4"
-						alt=""
-					/>
-
-					<img
-						src="assets/g12.jpg"
-						class="w-100 shadow-1-strong rounded mb-4"
-						alt=""
-					/>
-				</div>
+					<!-- Submit button -->
+					<button type="submit" class="btn btn-primary">Submit</button>
+				</form>
 			</div>
 		</div>
-		<!-- Gallery -->
 
+		<br />
 		<!-- Footer -->
 		<footer class="footer text-center text-white fixed-bottom">
 			<div

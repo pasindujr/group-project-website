@@ -1,9 +1,9 @@
-<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>ATI Kegalle - Gallery</title>
+		<title>ATI Kegalle - Admin</title>
+		<!-- Required bootstrap CSS -->
 		<!-- Font Awesome -->
 		<link
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
@@ -19,9 +19,10 @@
 			href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.css"
 			rel="stylesheet"
 		/>
+		<link rel="stylesheet" href="loginstyle.css" />
 	</head>
 
-	<body>
+	<body class="main-bg">
 		<!-- Navbar -->
 		<nav
 			class="navbar navbar-expand-lg navbar-dark mb-3"
@@ -92,98 +93,66 @@
 			<!-- Container wrapper -->
 		</nav>
 		<!-- Navbar -->
-		<br />
 
-		<!-- Gallery -->
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-					<img
-						src="assets/g1.jpg"
-						class="w-100 shadow-1-strong rounded mb-4"
-						alt=""
-					/>
+    <!--These links should be deleted-->
+    should be deleted<br>
+    <a href="admin-forms.html">Admin forms</a><br>
+    <a href="qrSubmit/member-submit.html">Member submit</a><br>
+    <a href="qrSubmit/visitor-submit.html">visitor submit</a>
+		<!--Login form-->
 
-					<img
-						src="assets/g2.jpg"
-						class="w-100 shadow-1-strong rounded mb-4"
-						alt=""
-					/>
-				</div>
-
-				<div class="col-lg-4 mb-4 mb-lg-0">
-					<img
-						src="assets/g3.jpg"
-						class="w-100 shadow-1-strong rounded mb-4"
-						alt=""
-					/>
-
-					<img
-						src="assets/g4.jpg"
-						class="w-100 shadow-1-strong rounded mb-4"
-						alt=""
-					/>
-				</div>
-
-				<div class="col-lg-4 mb-4 mb-lg-0">
-					<img
-						src="assets/g5.jpg"
-						class="w-100 shadow-1-strong rounded mb-4"
-						alt=""
-					/>
-
-					<img
-						src="assets/g6.jpg"
-						class="w-100 shadow-1-strong rounded mb-4"
-						alt=""
-					/>
-				</div>
+		<div class="login-container text-c animated flipInX">
+			<div>
+				<h1 class="logo-badge text-whitesmoke">
+					<span class="fas fa-user-cog"></span>
+				</h1>
 			</div>
-			<div class="row mb-2">
-				<div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-					<img
-						src="assets/g7.jpg"
-						class="w-100 shadow-1-strong rounded mb-4"
-						alt=""
-					/>
+			<h3 class="text-whitesmoke">Admin Log In</h3>
+			<div class="container-content">
+				<form>
+					<!-- Email input -->
+					<div class="form-outline mb-4">
+						<input type="email" class="form-control" />
+						<label class="form-label" for="form1Example1">Email address</label>
+					</div>
 
-					<img
-						src="assets/g8.jpg"
-						class="w-100 shadow-1-strong rounded mb-4"
-						alt=""
-					/>
-				</div>
+					<!-- Password input -->
+					<div class="form-outline mb-4">
+						<input type="password" class="form-control" />
+						<label class="form-label" for="form1Example2">Password</label>
+					</div>
 
-				<div class="col-lg-4 mb-4 mb-lg-0">
-					<img
-						src="assets/g9.jpg"
-						class="w-100 shadow-1-strong rounded mb-4"
-						alt=""
-					/>
+					<!-- 2 column grid layout for inline styling -->
+					<div class="row mb-4">
+						<div class="col d-flex justify-content-center">
+							<!-- Checkbox -->
+							<div class="form-check">
+								<input
+									class="form-check-input"
+									type="checkbox"
+									value=""
+									id="form1Example3"
+									checked
+								/>
+								<label class="form-check-label" for="form1Example3">
+									Remember me
+								</label>
+							</div>
+						</div>
 
-					<img
-						src="assets/g10.jpg"
-						class="w-100 shadow-1-strong rounded mb-4"
-						alt=""
-					/>
-				</div>
+						<div class="col">
+							<!-- Simple link -->
+							<a href="#!">Forgot password?</a>
+						</div>
+					</div>
 
-				<div class="col-lg-4 mb-4 mb-lg-0">
-					<img
-						src="assets/g11.jpg"
-						class="w-100 shadow-1-strong rounded mb-4"
-						alt=""
-					/>
-
-					<img
-						src="assets/g12.jpg"
-						class="w-100 shadow-1-strong rounded mb-4"
-						alt=""
-					/>
-				</div>
+					<!-- Submit button -->
+					<button type="submit" class="btn btn-primary btn-block">
+						Log in
+					</button>
+				</form>
 			</div>
 		</div>
-		<!-- Gallery -->
 
 		<!-- Footer -->
 		<footer class="footer text-center text-white fixed-bottom">
